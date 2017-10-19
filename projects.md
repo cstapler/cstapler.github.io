@@ -1,4 +1,22 @@
 ---
 title: Projects
 ---
-# Recent Projects
+# Projects
+## Senior Design Project: Integration of personnel tracking in an augmented reality environment
+![Holoens]({{"/images/boeing-hololens.png" | absolute_url }})
+
+The goal of the project is to create a Hololens application that shows a live map of where different people are at any given time. The personnel are tracked through a small token, which is attached to issued Personal Perspective Equipment (PPE), that communicates with a distributed tracking system that relays data to the Hololens that a supervisor will utilize for monitoring purposes. My role on the team is Report Manager. Whenever we turn in documents such as our project plan and design documents, I review these documents and make sure they are turned in on time. Thus far, I have researched tracking solutions. Started out by looking at tracking solutions that have been implemented already and are in constant use. After some time, I could not find any solution that is being used frequently, and that provided the accuracy we require. Next, I began looking into research papers in the area of localization using RF, specifically building on wifi, to localize and a target in an environment. There were many papers describing this specific topic, however, there were less papers which detailed an approach with the accuracy we need. In addition, few provided actual working experiment data and solution implementation details. We hope that with the help of this project safety and efficiency on construction sites will be improved. Progress on this project can be tracked [here](https://sdmay18-34.sd.ece.iastate.edu/)
+
+## Sketch-Guess.io
+![Sketch-guess]({{"//images/sketch-guess1.png" | absolute_url }})
+
+In SE 319, students in groups of 2 are given the opportunity to create any program of their choosing for the Final Project for the class as long as it uses the technologies we have previously learned about in class. For the final project my partner and I chose to create sketch-guess.io a web game where a users draws a given object and others guess using the chat system. To design the game we relied on Node.js for the backend using the express framework in addition socket.io to facilitate client/server interaction. After this project was over I then learned how to host projects on Heroku and uploaded this game so my partner and I can show it to friends. [Sketch-Guess.io](https://sketch-guess-6328.herokuapp.com/)
+
+## Career Aide
+![Career-aide]({{"//images/career-aid.jpg" | absolute_url }})
+
+Career Aide gives users the ability to manage and create dynamic html and pdf based resumes. Users first enter their information into an easy to use form view. Once entered their resume is saved into the database for later reuse and addition to their existing content. When information has been enter into the database it can be then used to generate pdfs and html pages using a variety of different themes. We built our back end on node.js, mongodb and Loopback. We chose node because of the wealth of libraries for all things web dev. For our frontend we used Typescript and Angular 2. Javascript/Typescript is a language we're both pretty familiar with, so it was a logical choice. We had both done some Javascript development but this was the first time that we had worked with a MEAN stack. In previous hackathons we've opted to build our backend in Python. The Loopback framework lets you build APIs with ease and we'll definitely be considering using it for future projects. There were many struggles throughout the project and without a doubt they improved our debugging skills. For this project I was mainly focused with the backend infrastructure.
+
+## Mars Rover Cpr E 288 Final Project
+![Mars-rover]({{"/images/mars-rover.jpg" | absolute_url }})
+Throughout Cpr E 288 in our labs we worked with modified Roomabas. These Roombas had a special microcontroller attached as well as different sensors such as an IR sensor and Ultrasonic distance sensor. With these modified Roombas we could write c code and quickly transfer the code to the bot and test out the sensors and the machines other features. The final project for the class was to get this modified Roomba to navigate an obstacle course remotely. For this project I worked closely with team members to ensure that our C code had the bot moving efficiently and that it returned data us accurately so we could determine what obstacles stood in its way. Creating a GUI (Graphical User Interface) for the project was optional, however, I took up the task and created a GUI using python. Tkinter was used for to create the graphical user interface portion and pyserial to communicate via serial interface to the Bluetooth connected device.
