@@ -10,7 +10,7 @@ The goal of the project is to create a Hololens application that shows a live ma
 ## Sketch-Guess.io
 ![Sketch-guess]({{"//images/sketch-guess1.png" | absolute_url }})
 
-In SE 319, students in groups of 2 are given the opportunity to create any program of their choosing for the Final Project for the class as long as it uses the technologies we have previously learned about in class. For the final project my partner and I chose to create sketch-guess.io a web game where a users draws a given object and others guess using the chat system. To design the game we relied on Node.js for the backend using the express framework in addition socket.io to facilitate client/server interaction. After this project was over I then learned how to host projects on Heroku and uploaded this game so my partner and I can show it to friends. [Sketch-Guess.io](https://sketch-guess-6328.herokuapp.com/)
+In SE 319, students in groups of 2 are given the opportunity to create any program of their choosing for the final project for the class as long as it uses the technologies we have previously learned about in class. For the final project, my partner and I chose to create sketch-guess.io a web game where a users draws a given object and others guess using the chat system. To design the game we relied on Node.js for the backend using the express framework in addition socket.io to facilitate client/server interaction. After this project was over I then learned how to host projects on Heroku and uploaded this game so my partner and I can show it to friends. [Sketch-Guess.io](https://sketch-guess-6328.herokuapp.com/)
 
 ## Career Aide
 ![Career-aide]({{"//images/career-aid.jpg" | absolute_url }})
